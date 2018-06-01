@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewCheckUnCheckHierarchyExample", "TreeViewCheckUnCheckHierarchyExample\TreeViewCheckUnCheckHierarchyExample.csproj", "{55F00D3F-903D-4787-A751-0A7921B50049}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3392F373-7AB5-4272-BBD7-3041A6599846}"
+	ProjectSection(SolutionItems) = preProject
+		..\initial.png = ..\initial.png
+		..\README.md = ..\README.md
+		..\tree-1.png = ..\tree-1.png
+		..\tree-11.png = ..\tree-11.png
+		..\tree-112.png = ..\tree-112.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
