@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.exTreeView1 = new TreeViewCheckUnCheckHierarchyExample.ExTreeView();
+            this.SuspendLayout();
+            // 
+            // exTreeView1
+            // 
+            this.exTreeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.exTreeView1.Location = new System.Drawing.Point(0, 0);
+            this.exTreeView1.Name = "exTreeView1";
+            this.exTreeView1.Size = new System.Drawing.Size(490, 511);
+            this.exTreeView1.TabIndex = 0;
+            this.exTreeView1.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.exTreeView1_AfterCheck);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(490, 511);
+            this.Controls.Add(this.exTreeView1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private ExTreeView exTreeView1;
     }
 }
 
