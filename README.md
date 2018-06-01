@@ -14,17 +14,25 @@ Initial state
 
 ![initial](initial.png)
 
-Check Node 1
+Check 1
 
-![initial](tree-1.png)
+![check-1](check-1.png)
 
-Uncheck Node 11
+Uncheck 11
 
-![initial](tree-11.png)
+![uncheck-11](uncheck-11.png)
 
-Check Node 112
+Uncheck 12
 
-![initial](tree-112.png)
+![uncheck-12](uncheck-12.png)
+
+Check 112
+
+![check-112](check-112.png)
+
+Uncheck 112
+
+![uncheck-112](uncheck-112.png)
 
 
 
